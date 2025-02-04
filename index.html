@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        h1 {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            margin: 0;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Beautiful Nature Gallery</h1>
+    <div class="gallery">
+        <img src="images/nature1.jpg" alt="Nature Image 1">
+        <img src="images/nature2.jpg" alt="Nature Image 2">
+        <img src="images/nature3.jpg" alt="Nature Image 3">
+        <img src="images/nature4.jpg" alt="Nature Image 4">
+        <img src="images/nature5.jpg" alt="Nature Image 5">
+        <img src="images/nature6.jpg" alt="Nature Image 6">
+        <img src="images/nature7.jpg" alt="Nature Image 7">
+        <img src="images/nature8.jpg" alt="Nature Image 8">
+    </div>
+
+</body>
+</html>
